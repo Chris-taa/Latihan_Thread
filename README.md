@@ -30,6 +30,8 @@ Contoh skenario:
 4. Andi melakukan `INSERT` (berhasil).
 5. Budi juga melakukan `INSERT` (berhasil) → Terjadi **kursi ganda**!
 
+![alt text](image.png)
+
 ### ✅ Solusi: Sinkronisasi di Java
 
 Untuk mencegah hal ini, digunakan blok `synchronized` di dalam method `run()` pada kelas `TiketBookingTask.java`:
