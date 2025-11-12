@@ -32,6 +32,10 @@ Contoh skenario:
 
 ![alt text](image.png)
 
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
 ### ✅ Solusi: Sinkronisasi di Java
 
 Untuk mencegah hal ini, digunakan blok `synchronized` di dalam method `run()` pada kelas `TiketBookingTask.java`:
